@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'FunctionPointers' target in the 'FunctionPointers' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

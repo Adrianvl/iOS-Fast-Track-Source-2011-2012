@@ -1,0 +1,179 @@
+// !$*UTF8*$!
+{
+	07C49B7E1343C19500771004 /* QuickTable */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = QuickTable;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	07C49B8A1343C1A100771004 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	07C49B8B1343C1A100771004 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	07C49B8C1343C1B200771004 /* MainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {670, 925}}";
+			sepNavSelRange = "{186, 0}";
+			sepNavVisRange = "{0, 383}";
+		};
+	};
+	07C49B8D1343C1B200771004 /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{3895, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{3946, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{3996, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 4228}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {663, 2275}}";
+			sepNavSelRange = "{4166, 5}";
+			sepNavVisRange = "{1345, 275}";
+		};
+	};
+	07C49BAC1343C2EE00771004 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* QuickTableAppDelegate.m */;
+		name = "QuickTableAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 701;
+		rType = 0;
+		vrLen = 2521;
+		vrLoc = 0;
+	};
+	07C49BAD1343C2EE00771004 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 07C49B8C1343C1B200771004 /* MainViewController.h */;
+		name = "MainViewController.h: 12";
+		rLen = 0;
+		rLoc = 186;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	07C49BAE1343C2EE00771004 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* QuickTableAppDelegate.h */;
+		name = "QuickTableAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	07C49BAF1343C2EE00771004 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 07C49B8D1343C1B200771004 /* MainViewController.m */;
+		name = "MainViewController.m: 143";
+		rLen = 0;
+		rLoc = 4221;
+		rType = 0;
+		vrLen = 2394;
+		vrLoc = 1864;
+	};
+	07C49BBE1343C33600771004 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 07C49B8D1343C1B200771004 /* MainViewController.m */;
+		name = "MainViewController.m: 37";
+		rLen = 0;
+		rLoc = 1029;
+		rType = 0;
+		vrLen = 2059;
+		vrLoc = 193;
+	};
+	1D3623240D0F684500981E51 /* QuickTableAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {604, 925}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 347}";
+		};
+	};
+	1D3623250D0F684500981E51 /* QuickTableAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1066}}";
+			sepNavSelRange = "{701, 0}";
+			sepNavVisRange = "{0, 2521}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* QuickTable */ = {
+		activeExec = 0;
+		executables = (
+			07C49B7E1343C19500771004 /* QuickTable */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 07C49B7E1343C19500771004 /* QuickTable */;
+		activeSDKPreference = iphonesimulator4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* QuickTable */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* QuickTable */,
+		);
+		codeSenseManager = 07C49B8B1343C1A100771004 /* Code sense */;
+		executables = (
+			07C49B7E1343C19500771004 /* QuickTable */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					426,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323207573;
+			PBXWorkspaceStateSaveDate = 323207573;
+		};
+		perUserProjectItems = {
+			07C49BAC1343C2EE00771004 /* PBXTextBookmark */ = 07C49BAC1343C2EE00771004 /* PBXTextBookmark */;
+			07C49BAD1343C2EE00771004 /* PBXTextBookmark */ = 07C49BAD1343C2EE00771004 /* PBXTextBookmark */;
+			07C49BAE1343C2EE00771004 /* PBXTextBookmark */ = 07C49BAE1343C2EE00771004 /* PBXTextBookmark */;
+			07C49BAF1343C2EE00771004 /* PBXTextBookmark */ = 07C49BAF1343C2EE00771004 /* PBXTextBookmark */;
+			07C49BBE1343C33600771004 /* PBXTextBookmark */ = 07C49BBE1343C33600771004 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 07C49B8A1343C1A100771004 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

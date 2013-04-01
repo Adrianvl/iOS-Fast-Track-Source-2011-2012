@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077FB7E714441F3400723FBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077FB7E614441F3400723FBC /* UIKit.framework */; };
+		077FB7E914441F3400723FBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077FB7E814441F3400723FBC /* Foundation.framework */; };
+		077FB7EB14441F3400723FBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077FB7EA14441F3400723FBC /* CoreGraphics.framework */; };
+		077FB7F114441F3400723FBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 077FB7EF14441F3400723FBC /* InfoPlist.strings */; };
+		077FB7F314441F3400723FBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 077FB7F214441F3400723FBC /* main.m */; };
+		077FB7F714441F3400723FBC /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 077FB7F614441F3400723FBC /* RTAppDelegate.m */; };
+		077FB7FA14441F3400723FBC /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077FB7F914441F3400723FBC /* RTViewController.m */; };
+		077FB7FD14441F3400723FBC /* RTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077FB7FB14441F3400723FBC /* RTViewController.xib */; };
+		077FB8051444203000723FBC /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 077FB8041444203000723FBC /* MyLabel.m */; };
+		077FB80C144426BA00723FBC /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 077FB80B144426BA00723FBC /* MyView.m */; };
+		07B395871446CC9500AD46FA /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B395861446CC9500AD46FA /* MyWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		077FB7E214441F3400723FBC /* ResponderTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResponderTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077FB7E614441F3400723FBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		077FB7E814441F3400723FBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		077FB7EA14441F3400723FBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		077FB7EE14441F3400723FBC /* ResponderTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResponderTest-Info.plist"; sourceTree = "<group>"; };
+		077FB7F014441F3400723FBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		077FB7F214441F3400723FBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		077FB7F414441F3400723FBC /* ResponderTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ResponderTest-Prefix.pch"; sourceTree = "<group>"; };
+		077FB7F514441F3400723FBC /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
+		077FB7F614441F3400723FBC /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		077FB7F814441F3400723FBC /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
+		077FB7F914441F3400723FBC /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
+		077FB7FC14441F3400723FBC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RTViewController.xib; sourceTree = "<group>"; };
+		077FB8031444203000723FBC /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		077FB8041444203000723FBC /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
+		077FB80A144426BA00723FBC /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		077FB80B144426BA00723FBC /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		07B395851446CC9500AD46FA /* MyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = "<group>"; };
+		07B395861446CC9500AD46FA /* MyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077FB7DF14441F3400723FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077FB7E714441F3400723FBC /* UIKit.framework in Frameworks */,
+				077FB7E914441F3400723FBC /* Foundation.framework in Frameworks */,
+				077FB7EB14441F3400723FBC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077FB7D714441F3300723FBC = {
+			isa = PBXGroup;
+			children = (
+				077FB7EC14441F3400723FBC /* ResponderTest */,
+				077FB7E514441F3400723FBC /* Frameworks */,
+				077FB7E314441F3400723FBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		077FB7E314441F3400723FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077FB7E214441F3400723FBC /* ResponderTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077FB7E514441F3400723FBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				077FB7E614441F3400723FBC /* UIKit.framework */,
+				077FB7E814441F3400723FBC /* Foundation.framework */,
+				077FB7EA14441F3400723FBC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		077FB7EC14441F3400723FBC /* ResponderTest */ = {
+			isa = PBXGroup;
+			children = (
+				077FB7F514441F3400723FBC /* RTAppDelegate.h */,
+				077FB7F614441F3400723FBC /* RTAppDelegate.m */,
+				077FB7F814441F3400723FBC /* RTViewController.h */,
+				077FB7F914441F3400723FBC /* RTViewController.m */,
+				077FB7FB14441F3400723FBC /* RTViewController.xib */,
+				077FB7ED14441F3400723FBC /* Supporting Files */,
+				077FB8031444203000723FBC /* MyLabel.h */,
+				077FB8041444203000723FBC /* MyLabel.m */,
+				077FB80A144426BA00723FBC /* MyView.h */,
+				077FB80B144426BA00723FBC /* MyView.m */,
+				07B395851446CC9500AD46FA /* MyWindow.h */,
+				07B395861446CC9500AD46FA /* MyWindow.m */,
+			);
+			path = ResponderTest;
+			sourceTree = "<group>";
+		};
+		077FB7ED14441F3400723FBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				077FB7EE14441F3400723FBC /* ResponderTest-Info.plist */,
+				077FB7EF14441F3400723FBC /* InfoPlist.strings */,
+				077FB7F214441F3400723FBC /* main.m */,
+				077FB7F414441F3400723FBC /* ResponderTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077FB7E114441F3400723FBC /* ResponderTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077FB80014441F3400723FBC /* Build configuration list for PBXNativeTarget "ResponderTest" */;
+			buildPhases = (
+				077FB7DE14441F3400723FBC /* Sources */,
+				077FB7DF14441F3400723FBC /* Frameworks */,
+				077FB7E014441F3400723FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResponderTest;
+			productName = ResponderTest;
+			productReference = 077FB7E214441F3400723FBC /* ResponderTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077FB7D914441F3300723FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Plymouth";
+			};
+			buildConfigurationList = 077FB7DC14441F3300723FBC /* Build configuration list for PBXProject "ResponderTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 077FB7D714441F3300723FBC;
+			productRefGroup = 077FB7E314441F3400723FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077FB7E114441F3400723FBC /* ResponderTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077FB7E014441F3400723FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077FB7F114441F3400723FBC /* InfoPlist.strings in Resources */,
+				077FB7FD14441F3400723FBC /* RTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077FB7DE14441F3400723FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077FB7F314441F3400723FBC /* main.m in Sources */,
+				077FB7F714441F3400723FBC /* RTAppDelegate.m in Sources */,
+				077FB7FA14441F3400723FBC /* RTViewController.m in Sources */,
+				077FB8051444203000723FBC /* MyLabel.m in Sources */,
+				077FB80C144426BA00723FBC /* MyView.m in Sources */,
+				07B395871446CC9500AD46FA /* MyWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		077FB7EF14441F3400723FBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077FB7F014441F3400723FBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		077FB7FB14441F3400723FBC /* RTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077FB7FC14441F3400723FBC /* en */,
+			);
+			name = RTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		077FB7FE14441F3400723FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		077FB7FF14441F3400723FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		077FB80114441F3400723FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResponderTest/ResponderTest-Prefix.pch";
+				INFOPLIST_FILE = "ResponderTest/ResponderTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		077FB80214441F3400723FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResponderTest/ResponderTest-Prefix.pch";
+				INFOPLIST_FILE = "ResponderTest/ResponderTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077FB7DC14441F3300723FBC /* Build configuration list for PBXProject "ResponderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077FB7FE14441F3400723FBC /* Debug */,
+				077FB7FF14441F3400723FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077FB80014441F3400723FBC /* Build configuration list for PBXNativeTarget "ResponderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077FB80114441F3400723FBC /* Debug */,
+				077FB80214441F3400723FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 077FB7D914441F3300723FBC /* Project object */;
+}

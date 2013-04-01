@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0714FCDB144D4CB5001138A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0714FCDA144D4CB5001138A0 /* UIKit.framework */; };
+		0714FCDD144D4CB5001138A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0714FCDC144D4CB5001138A0 /* Foundation.framework */; };
+		0714FCDF144D4CB5001138A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0714FCDE144D4CB5001138A0 /* CoreGraphics.framework */; };
+		0714FCE5144D4CB7001138A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0714FCE3144D4CB7001138A0 /* InfoPlist.strings */; };
+		0714FCE7144D4CB7001138A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0714FCE6144D4CB7001138A0 /* main.m */; };
+		0714FCEB144D4CB9001138A0 /* ATAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0714FCEA144D4CB9001138A0 /* ATAppDelegate.m */; };
+		0714FCEE144D4CBA001138A0 /* ATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0714FCED144D4CBA001138A0 /* ATViewController.m */; };
+		0714FCF1144D4CBB001138A0 /* ATViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0714FCEF144D4CBB001138A0 /* ATViewController.xib */; };
+		0714FCF8144D4E04001138A0 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0714FCF7144D4E04001138A0 /* CustomCell.xib */; };
+		0714FCFC144D4EBE001138A0 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0714FCFB144D4EBE001138A0 /* CustomCell.m */; };
+		07729C33144F39F0007A0124 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 07729C32144F39F0007A0124 /* folder.png */; };
+		07729C37144F3AB4007A0124 /* folderx.png in Resources */ = {isa = PBXBuildFile; fileRef = 07729C36144F3AB4007A0124 /* folderx.png */; };
+		07729C39144F3D85007A0124 /* CustomCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07729C38144F3D85007A0124 /* CustomCell2.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0714FCD6144D4CB5001138A0 /* AutoTableTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoTableTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0714FCDA144D4CB5001138A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0714FCDC144D4CB5001138A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0714FCDE144D4CB5001138A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0714FCE2144D4CB6001138A0 /* AutoTableTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoTableTest-Info.plist"; sourceTree = "<group>"; };
+		0714FCE4144D4CB7001138A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0714FCE6144D4CB7001138A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0714FCE8144D4CB8001138A0 /* AutoTableTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoTableTest-Prefix.pch"; sourceTree = "<group>"; };
+		0714FCE9144D4CB8001138A0 /* ATAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAppDelegate.h; sourceTree = "<group>"; };
+		0714FCEA144D4CB9001138A0 /* ATAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAppDelegate.m; sourceTree = "<group>"; };
+		0714FCEC144D4CB9001138A0 /* ATViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATViewController.h; sourceTree = "<group>"; };
+		0714FCED144D4CBA001138A0 /* ATViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATViewController.m; sourceTree = "<group>"; };
+		0714FCF0144D4CBB001138A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ATViewController.xib; sourceTree = "<group>"; };
+		0714FCF7144D4E04001138A0 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		0714FCFA144D4EBE001138A0 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		0714FCFB144D4EBE001138A0 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		07729C32144F39F0007A0124 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder.png; sourceTree = "<group>"; };
+		07729C36144F3AB4007A0124 /* folderx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folderx.png; sourceTree = "<group>"; };
+		07729C38144F3D85007A0124 /* CustomCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell2.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0714FCD3144D4CB5001138A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0714FCDB144D4CB5001138A0 /* UIKit.framework in Frameworks */,
+				0714FCDD144D4CB5001138A0 /* Foundation.framework in Frameworks */,
+				0714FCDF144D4CB5001138A0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0714FCCB144D4CB2001138A0 = {
+			isa = PBXGroup;
+			children = (
+				0714FCE0144D4CB5001138A0 /* AutoTableTest */,
+				0714FCD9144D4CB5001138A0 /* Frameworks */,
+				0714FCD7144D4CB5001138A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0714FCD7144D4CB5001138A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0714FCD6144D4CB5001138A0 /* AutoTableTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0714FCD9144D4CB5001138A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0714FCDA144D4CB5001138A0 /* UIKit.framework */,
+				0714FCDC144D4CB5001138A0 /* Foundation.framework */,
+				0714FCDE144D4CB5001138A0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0714FCE0144D4CB5001138A0 /* AutoTableTest */ = {
+			isa = PBXGroup;
+			children = (
+				0714FCE9144D4CB8001138A0 /* ATAppDelegate.h */,
+				0714FCEA144D4CB9001138A0 /* ATAppDelegate.m */,
+				0714FCF9144D4E0D001138A0 /* CustomCell */,
+				07729C2C144F1D6F007A0124 /* View Controller */,
+				0714FCE1144D4CB6001138A0 /* Supporting Files */,
+			);
+			path = AutoTableTest;
+			sourceTree = "<group>";
+		};
+		0714FCE1144D4CB6001138A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0714FCE2144D4CB6001138A0 /* AutoTableTest-Info.plist */,
+				0714FCE3144D4CB7001138A0 /* InfoPlist.strings */,
+				0714FCE6144D4CB7001138A0 /* main.m */,
+				0714FCE8144D4CB8001138A0 /* AutoTableTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0714FCF9144D4E0D001138A0 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				07729C32144F39F0007A0124 /* folder.png */,
+				07729C36144F3AB4007A0124 /* folderx.png */,
+				0714FCF7144D4E04001138A0 /* CustomCell.xib */,
+				0714FCFA144D4EBE001138A0 /* CustomCell.h */,
+				0714FCFB144D4EBE001138A0 /* CustomCell.m */,
+				07729C38144F3D85007A0124 /* CustomCell2.xib */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		07729C2C144F1D6F007A0124 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0714FCEC144D4CB9001138A0 /* ATViewController.h */,
+				0714FCED144D4CBA001138A0 /* ATViewController.m */,
+				0714FCEF144D4CBB001138A0 /* ATViewController.xib */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0714FCD5144D4CB5001138A0 /* AutoTableTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0714FCF4144D4CBB001138A0 /* Build configuration list for PBXNativeTarget "AutoTableTest" */;
+			buildPhases = (
+				0714FCD2144D4CB5001138A0 /* Sources */,
+				0714FCD3144D4CB5001138A0 /* Frameworks */,
+				0714FCD4144D4CB5001138A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoTableTest;
+			productName = AutoTableTest;
+			productReference = 0714FCD6144D4CB5001138A0 /* AutoTableTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0714FCCD144D4CB2001138A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0714FCD0144D4CB2001138A0 /* Build configuration list for PBXProject "AutoTableTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0714FCCB144D4CB2001138A0;
+			productRefGroup = 0714FCD7144D4CB5001138A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0714FCD5144D4CB5001138A0 /* AutoTableTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0714FCD4144D4CB5001138A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0714FCE5144D4CB7001138A0 /* InfoPlist.strings in Resources */,
+				0714FCF1144D4CBB001138A0 /* ATViewController.xib in Resources */,
+				0714FCF8144D4E04001138A0 /* CustomCell.xib in Resources */,
+				07729C33144F39F0007A0124 /* folder.png in Resources */,
+				07729C37144F3AB4007A0124 /* folderx.png in Resources */,
+				07729C39144F3D85007A0124 /* CustomCell2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0714FCD2144D4CB5001138A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0714FCE7144D4CB7001138A0 /* main.m in Sources */,
+				0714FCEB144D4CB9001138A0 /* ATAppDelegate.m in Sources */,
+				0714FCEE144D4CBA001138A0 /* ATViewController.m in Sources */,
+				0714FCFC144D4EBE001138A0 /* CustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0714FCE3144D4CB7001138A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0714FCE4144D4CB7001138A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0714FCEF144D4CBB001138A0 /* ATViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0714FCF0144D4CBB001138A0 /* en */,
+			);
+			name = ATViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0714FCF2144D4CBB001138A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0714FCF3144D4CBB001138A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0714FCF5144D4CBB001138A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoTableTest/AutoTableTest-Prefix.pch";
+				INFOPLIST_FILE = "AutoTableTest/AutoTableTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0714FCF6144D4CBB001138A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoTableTest/AutoTableTest-Prefix.pch";
+				INFOPLIST_FILE = "AutoTableTest/AutoTableTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0714FCD0144D4CB2001138A0 /* Build configuration list for PBXProject "AutoTableTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0714FCF2144D4CBB001138A0 /* Debug */,
+				0714FCF3144D4CBB001138A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0714FCF4144D4CBB001138A0 /* Build configuration list for PBXNativeTarget "AutoTableTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0714FCF5144D4CBB001138A0 /* Debug */,
+				0714FCF6144D4CBB001138A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0714FCCD144D4CB2001138A0 /* Project object */;
+}

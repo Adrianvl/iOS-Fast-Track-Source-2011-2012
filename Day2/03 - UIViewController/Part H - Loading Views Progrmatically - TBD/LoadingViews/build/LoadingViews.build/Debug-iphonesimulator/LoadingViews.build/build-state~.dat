@@ -1,0 +1,269 @@
+TLoadingViews
+v7
+r0
+t317029476.587552
+cCheck dependencies
+cProcessInfoPlistFile /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/Info.plist LoadingViews-Info.plist
+cCompileXIB /Users/noutram/Desktop/LoadingViews/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/LoadingViews.app/thingy.png thingy.png
+cProcessPCH /var/folders/jO/jO7cgKZLEWKYsco-rAJJDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoadingViews_Prefix-bmtmalwncvrifchjdlmgiocgtwcw/LoadingViews_Prefix.pch.gch LoadingViews_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/main.o /Users/noutram/Desktop/LoadingViews/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/LoadingViewsAppDelegate.o /Users/noutram/Desktop/LoadingViews/Classes/LoadingViewsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/MainViewController.o /Users/noutram/Desktop/LoadingViews/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/LoadingViews normal i386
+cGenerateDSYMFile /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app.dSYM /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/LoadingViews
+cTouch /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/noutram/Desktop/LoadingViews/Classes/LoadingViewsAppDelegate.h
+c000000004D35428F0000000000000161
+t1295336079
+s353
+i<UIKit/UIKit.h>
+
+N/Users/noutram/Desktop/LoadingViews/Classes/LoadingViewsAppDelegate.m
+c000000004D3543690000000000000A69
+t1295336297
+s2665
+i"LoadingViewsAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/noutram/Desktop/LoadingViews/Classes/MainViewController.h
+c000000004D3542C200000000000000F8
+t1295336130
+s248
+i<UIKit/UIKit.h>
+
+N/Users/noutram/Desktop/LoadingViews/Classes/MainViewController.m
+c000000004D3544DD0000000000000740
+t1295336669
+s1856
+i"MainViewController.h"
+
+N/Users/noutram/Desktop/LoadingViews/LoadingViews_Prefix.pch
+c000000004D35428F00000000000000C1
+t1295336079
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/noutram/Desktop/LoadingViews/MainWindow.xib
+c000000004D35428F0000000000002121
+t1295336079
+s8481
+
+N/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app
+t1295336676
+s238
+
+N/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app.dSYM
+t1295336676
+s102
+
+N/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/Info.plist
+t1295336672
+s611
+
+N/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/LoadingViews
+t1295336676
+s17440
+
+N/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/MainWindow.nib
+t1295336673
+s989
+
+N/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/PkgInfo
+t1295336672
+s8
+
+N/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/thingy.png
+t1295336672
+s7814
+
+N/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/thingy.pxm
+t2
+s0
+
+N/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/LoadingViews.LinkFileList
+c000000004D3544E000000000000001A4
+t1295336672
+s420
+
+N/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/LoadingViewsAppDelegate.o
+t1295336676
+s50532
+
+N/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/MainViewController.o
+t1295336676
+s40888
+
+N/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/main.o
+t1295336676
+s6296
+
+N/Users/noutram/Desktop/LoadingViews/main.m
+c000000004D35428F0000000000000179
+t1295336079
+s377
+i<UIKit/UIKit.h>
+
+N/Users/noutram/Desktop/LoadingViews/thingy.png
+c000000004D3544A80000000000001E86
+t1295336616
+s7814
+
+N/Users/noutram/Desktop/LoadingViews/thingy.pxm
+c000000004D35447F000000000000463F
+t1295336575
+s17983
+
+N/var/folders/jO/jO7cgKZLEWKYsco-rAJJDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoadingViews_Prefix-bmtmalwncvrifchjdlmgiocgtwcw/LoadingViews_Prefix.pch.gch
+t1295336675
+s15453392
+
+NLoadingViews-Info.plist
+c000000004D35428F000000000000038D
+t1295336079
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317029472#317029472#0(0"0(0#1#0"8627778176#0"0#
+
+CCompileC build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/LoadingViewsAppDelegate.o /Users/noutram/Desktop/LoadingViews/Classes/LoadingViewsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317029475.950742
+e317029476.055222
+r1
+xCompileC
+xbuild/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/LoadingViewsAppDelegate.o
+x/Users/noutram/Desktop/LoadingViews/Classes/LoadingViewsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/noutram/Desktop/LoadingViews/Classes/LoadingViewsAppDelegate.m317029475#317029476#0(0"0(0#0#69"/Users/noutram/Desktop/LoadingViews/Classes/LoadingViewsAppDelegate.m8627523072#2027"    cd /Users/noutram/Desktop/LoadingViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-generated-files.hmap -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-own-target-headers.hmap -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-all-target-headers.hmap -iquote /Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-project-headers.hmap -F/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator -I/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/include -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/DerivedSources/i386 -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/DerivedSources -include /var/folders/jO/jO7cgKZLEWKYsco-rAJJDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoadingViews_Prefix-bmtmalwncvrifchjdlmgiocgtwcw/LoadingViews_Prefix.pch -c /Users/noutram/Desktop/LoadingViews/Classes/LoadingViewsAppDelegate.m -o /Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/LoadingViewsAppDelegate.o0#
+
+CCompileC build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/MainViewController.o /Users/noutram/Desktop/LoadingViews/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317029476.053882
+e317029476.124918
+r1
+xCompileC
+xbuild/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/MainViewController.o
+x/Users/noutram/Desktop/LoadingViews/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/noutram/Desktop/LoadingViews/Classes/MainViewController.m317029476#317029476#0(0"0(0#0#64"/Users/noutram/Desktop/LoadingViews/Classes/MainViewController.m8611243424#2017"    cd /Users/noutram/Desktop/LoadingViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-generated-files.hmap -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-own-target-headers.hmap -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-all-target-headers.hmap -iquote /Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-project-headers.hmap -F/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator -I/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/include -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/DerivedSources/i386 -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/DerivedSources -include /var/folders/jO/jO7cgKZLEWKYsco-rAJJDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoadingViews_Prefix-bmtmalwncvrifchjdlmgiocgtwcw/LoadingViews_Prefix.pch -c /Users/noutram/Desktop/LoadingViews/Classes/MainViewController.m -o /Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/MainViewController.o0#
+
+CCompileC build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/main.o /Users/noutram/Desktop/LoadingViews/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317029475.949220
+e317029476.053776
+r1
+xCompileC
+xbuild/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/main.o
+x/Users/noutram/Desktop/LoadingViews/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/noutram/Desktop/LoadingViews/main.m317029475#317029476#0(0"0(0#0#42"/Users/noutram/Desktop/LoadingViews/main.m8628196672#1981"    cd /Users/noutram/Desktop/LoadingViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-generated-files.hmap -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-own-target-headers.hmap -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-all-target-headers.hmap -iquote /Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-project-headers.hmap -F/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator -I/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/include -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/DerivedSources/i386 -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/DerivedSources -include /var/folders/jO/jO7cgKZLEWKYsco-rAJJDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoadingViews_Prefix-bmtmalwncvrifchjdlmgiocgtwcw/LoadingViews_Prefix.pch -c /Users/noutram/Desktop/LoadingViews/main.m -o /Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/noutram/Desktop/LoadingViews/MainWindow.xib
+s317029472.920927
+e317029473.602415
+r1
+xCompileXIB
+x/Users/noutram/Desktop/LoadingViews/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317029472#317029473#0(0"0(0#0#50"/Users/noutram/Desktop/LoadingViews/MainWindow.xib8629938272#566"    cd /Users/noutram/Desktop/LoadingViews    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/MainWindow.nib /Users/noutram/Desktop/LoadingViews/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/LoadingViews.app/thingy.png thingy.png
+s317029472.928488
+e317029473.010904
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LoadingViews.app/thingy.png
+xthingy.png
+lSLF07#2@15"Copy thingy.png317029472#317029473#0(0"0(0#0#46"/Users/noutram/Desktop/LoadingViews/thingy.png8628484512#464"    cd /Users/noutram/Desktop/LoadingViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/noutram/Desktop/LoadingViews/thingy.png /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app0#
+
+CCpResource build/Debug-iphonesimulator/LoadingViews.app/thingy.pxm thingy.pxm
+r0
+
+CGenerateDSYMFile /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app.dSYM /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/LoadingViews
+s317029476.518074
+e317029476.549607
+r1
+xGenerateDSYMFile
+x/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app.dSYM
+x/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/LoadingViews
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/LoadingViews.app.dSYM build/Debug-iphonesimulator/LoadingViews.app/LoadingViews317029476#317029476#0(0"0(0#0#93"/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/LoadingViews8628010464#389"    cd /Users/noutram/Desktop/LoadingViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/LoadingViews -o /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app.dSYM0#
+
+CLd /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/LoadingViews normal i386
+s317029476.125016
+e317029476.517945
+r1
+xLd
+x/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/LoadingViews
+xnormal
+xi386
+lSLF07#2@98"Link /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/LoadingViews317029476#317029476#0(0"0(0#0#0"8630214592#910"    cd /Users/noutram/Desktop/LoadingViews    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator -F/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator -filelist /Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/Objects-normal/i386/LoadingViews.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/LoadingViews0#
+
+CProcessInfoPlistFile /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/Info.plist LoadingViews-Info.plist
+s317029472.917778
+e317029472.920852
+r1
+xProcessInfoPlistFile
+x/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/Info.plist
+xLoadingViews-Info.plist
+lSLF07#2@31"Process LoadingViews-Info.plist317029472#317029472#0(0"0(0#0#59"/Users/noutram/Desktop/LoadingViews/LoadingViews-Info.plist8630522240#485"    cd /Users/noutram/Desktop/LoadingViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility LoadingViews-Info.plist -genpkginfo /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app/Info.plist0#
+
+CProcessPCH /var/folders/jO/jO7cgKZLEWKYsco-rAJJDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoadingViews_Prefix-bmtmalwncvrifchjdlmgiocgtwcw/LoadingViews_Prefix.pch.gch LoadingViews_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317029473.602535
+e317029475.948968
+r1
+xProcessPCH
+x/var/folders/jO/jO7cgKZLEWKYsco-rAJJDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoadingViews_Prefix-bmtmalwncvrifchjdlmgiocgtwcw/LoadingViews_Prefix.pch.gch
+xLoadingViews_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile LoadingViews_Prefix.pch317029473#317029475#0(0"0(0#0#59"/Users/noutram/Desktop/LoadingViews/LoadingViews_Prefix.pch8628220224#1871"    cd /Users/noutram/Desktop/LoadingViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-generated-files.hmap -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-own-target-headers.hmap -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-all-target-headers.hmap -iquote /Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/LoadingViews-project-headers.hmap -F/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator -I/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/include -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/DerivedSources/i386 -I/Users/noutram/Desktop/LoadingViews/build/LoadingViews.build/Debug-iphonesimulator/LoadingViews.build/DerivedSources -c /Users/noutram/Desktop/LoadingViews/LoadingViews_Prefix.pch -o /var/folders/jO/jO7cgKZLEWKYsco-rAJJDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoadingViews_Prefix-bmtmalwncvrifchjdlmgiocgtwcw/LoadingViews_Prefix.pch.gch0#
+
+CTouch /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app
+s317029476.549692
+e317029476.587494
+r1
+xTouch
+x/Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app
+lSLF07#2@86"Touch /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app317029476#317029476#0(0"0(0#0#0"8627809792#277"    cd /Users/noutram/Desktop/LoadingViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/noutram/Desktop/LoadingViews/build/Debug-iphonesimulator/LoadingViews.app0#
+

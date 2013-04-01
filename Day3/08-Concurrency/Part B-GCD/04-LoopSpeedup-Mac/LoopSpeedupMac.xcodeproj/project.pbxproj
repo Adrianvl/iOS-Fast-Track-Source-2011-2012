@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DF210813D72B440050C9A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DF210713D72B440050C9A5 /* Cocoa.framework */; };
+		07DF211213D72B440050C9A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07DF211013D72B440050C9A5 /* InfoPlist.strings */; };
+		07DF211413D72B440050C9A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DF211313D72B440050C9A5 /* main.m */; };
+		07DF211813D72B440050C9A5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 07DF211613D72B440050C9A5 /* Credits.rtf */; };
+		07DF211B13D72B440050C9A5 /* LoopSpeedupMacAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DF211A13D72B440050C9A5 /* LoopSpeedupMacAppDelegate.m */; };
+		07DF211E13D72B440050C9A5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07DF211C13D72B440050C9A5 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07DF210313D72B440050C9A5 /* LoopSpeedupMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopSpeedupMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DF210713D72B440050C9A5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		07DF210A13D72B440050C9A5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		07DF210B13D72B440050C9A5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		07DF210C13D72B440050C9A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07DF210F13D72B440050C9A5 /* LoopSpeedupMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoopSpeedupMac-Info.plist"; sourceTree = "<group>"; };
+		07DF211113D72B440050C9A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07DF211313D72B440050C9A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07DF211513D72B440050C9A5 /* LoopSpeedupMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoopSpeedupMac-Prefix.pch"; sourceTree = "<group>"; };
+		07DF211713D72B440050C9A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		07DF211913D72B440050C9A5 /* LoopSpeedupMacAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoopSpeedupMacAppDelegate.h; sourceTree = "<group>"; };
+		07DF211A13D72B440050C9A5 /* LoopSpeedupMacAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoopSpeedupMacAppDelegate.m; sourceTree = "<group>"; };
+		07DF211D13D72B440050C9A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07DF210013D72B440050C9A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DF210813D72B440050C9A5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07DF20F813D72B440050C9A5 = {
+			isa = PBXGroup;
+			children = (
+				07DF210D13D72B440050C9A5 /* LoopSpeedupMac */,
+				07DF210613D72B440050C9A5 /* Frameworks */,
+				07DF210413D72B440050C9A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07DF210413D72B440050C9A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07DF210313D72B440050C9A5 /* LoopSpeedupMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07DF210613D72B440050C9A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07DF210713D72B440050C9A5 /* Cocoa.framework */,
+				07DF210913D72B440050C9A5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07DF210913D72B440050C9A5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07DF210A13D72B440050C9A5 /* AppKit.framework */,
+				07DF210B13D72B440050C9A5 /* CoreData.framework */,
+				07DF210C13D72B440050C9A5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		07DF210D13D72B440050C9A5 /* LoopSpeedupMac */ = {
+			isa = PBXGroup;
+			children = (
+				07DF211913D72B440050C9A5 /* LoopSpeedupMacAppDelegate.h */,
+				07DF211A13D72B440050C9A5 /* LoopSpeedupMacAppDelegate.m */,
+				07DF211C13D72B440050C9A5 /* MainMenu.xib */,
+				07DF210E13D72B440050C9A5 /* Supporting Files */,
+			);
+			path = LoopSpeedupMac;
+			sourceTree = "<group>";
+		};
+		07DF210E13D72B440050C9A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07DF210F13D72B440050C9A5 /* LoopSpeedupMac-Info.plist */,
+				07DF211013D72B440050C9A5 /* InfoPlist.strings */,
+				07DF211313D72B440050C9A5 /* main.m */,
+				07DF211513D72B440050C9A5 /* LoopSpeedupMac-Prefix.pch */,
+				07DF211613D72B440050C9A5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07DF210213D72B440050C9A5 /* LoopSpeedupMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DF212113D72B440050C9A5 /* Build configuration list for PBXNativeTarget "LoopSpeedupMac" */;
+			buildPhases = (
+				07DF20FF13D72B440050C9A5 /* Sources */,
+				07DF210013D72B440050C9A5 /* Frameworks */,
+				07DF210113D72B440050C9A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoopSpeedupMac;
+			productName = LoopSpeedupMac;
+			productReference = 07DF210313D72B440050C9A5 /* LoopSpeedupMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07DF20FA13D72B440050C9A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Plymouth";
+			};
+			buildConfigurationList = 07DF20FD13D72B440050C9A5 /* Build configuration list for PBXProject "LoopSpeedupMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07DF20F813D72B440050C9A5;
+			productRefGroup = 07DF210413D72B440050C9A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07DF210213D72B440050C9A5 /* LoopSpeedupMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07DF210113D72B440050C9A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DF211213D72B440050C9A5 /* InfoPlist.strings in Resources */,
+				07DF211813D72B440050C9A5 /* Credits.rtf in Resources */,
+				07DF211E13D72B440050C9A5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07DF20FF13D72B440050C9A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DF211413D72B440050C9A5 /* main.m in Sources */,
+				07DF211B13D72B440050C9A5 /* LoopSpeedupMacAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07DF211013D72B440050C9A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DF211113D72B440050C9A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07DF211613D72B440050C9A5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DF211713D72B440050C9A5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		07DF211C13D72B440050C9A5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DF211D13D72B440050C9A5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07DF211F13D72B440050C9A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07DF212013D72B440050C9A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07DF212213D72B440050C9A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoopSpeedupMac/LoopSpeedupMac-Prefix.pch";
+				INFOPLIST_FILE = "LoopSpeedupMac/LoopSpeedupMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07DF212313D72B440050C9A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoopSpeedupMac/LoopSpeedupMac-Prefix.pch";
+				INFOPLIST_FILE = "LoopSpeedupMac/LoopSpeedupMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07DF20FD13D72B440050C9A5 /* Build configuration list for PBXProject "LoopSpeedupMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DF211F13D72B440050C9A5 /* Debug */,
+				07DF212013D72B440050C9A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07DF212113D72B440050C9A5 /* Build configuration list for PBXNativeTarget "LoopSpeedupMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DF212213D72B440050C9A5 /* Debug */,
+				07DF212313D72B440050C9A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07DF20FA13D72B440050C9A5 /* Project object */;
+}

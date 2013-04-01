@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0718960A14685B3700E02FA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0718960914685B3700E02FA9 /* UIKit.framework */; };
+		0718960C14685B3700E02FA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0718960B14685B3700E02FA9 /* Foundation.framework */; };
+		0718960E14685B3700E02FA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0718960D14685B3700E02FA9 /* CoreGraphics.framework */; };
+		0718961414685B3700E02FA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0718961214685B3700E02FA9 /* InfoPlist.strings */; };
+		0718961614685B3700E02FA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718961514685B3700E02FA9 /* main.m */; };
+		0718961A14685B3800E02FA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718961914685B3800E02FA9 /* AppDelegate.m */; };
+		0718961D14685B3800E02FA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0718961C14685B3800E02FA9 /* ViewController.m */; };
+		0718962014685B3800E02FA9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0718961E14685B3800E02FA9 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0718960514685B3700E02FA9 /* ASynchCallBacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASynchCallBacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0718960914685B3700E02FA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0718960B14685B3700E02FA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0718960D14685B3700E02FA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0718961114685B3700E02FA9 /* ASynchCallBacks-Info.plist */ = {isa = PBXFileReference; path = "ASynchCallBacks-Info.plist"; sourceTree = "<group>"; };
+		0718961314685B3700E02FA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0718961514685B3700E02FA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0718961714685B3700E02FA9 /* ASynchCallBacks-Prefix.pch */ = {isa = PBXFileReference; path = "ASynchCallBacks-Prefix.pch"; sourceTree = "<group>"; };
+		0718961814685B3800E02FA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0718961914685B3800E02FA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0718961B14685B3800E02FA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0718961C14685B3800E02FA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0718961F14685B3800E02FA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0718960214685B3700E02FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0718960A14685B3700E02FA9 /* UIKit.framework in Frameworks */,
+				0718960C14685B3700E02FA9 /* Foundation.framework in Frameworks */,
+				0718960E14685B3700E02FA9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071895FA14685B3700E02FA9 = {
+			isa = PBXGroup;
+			children = (
+				0718960F14685B3700E02FA9 /* ASynchCallBacks */,
+				0718960814685B3700E02FA9 /* Frameworks */,
+				0718960614685B3700E02FA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0718960614685B3700E02FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0718960514685B3700E02FA9 /* ASynchCallBacks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0718960814685B3700E02FA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0718960914685B3700E02FA9 /* UIKit.framework */,
+				0718960B14685B3700E02FA9 /* Foundation.framework */,
+				0718960D14685B3700E02FA9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0718960F14685B3700E02FA9 /* ASynchCallBacks */ = {
+			isa = PBXGroup;
+			children = (
+				0718961814685B3800E02FA9 /* AppDelegate.h */,
+				0718961914685B3800E02FA9 /* AppDelegate.m */,
+				0718961B14685B3800E02FA9 /* ViewController.h */,
+				0718961C14685B3800E02FA9 /* ViewController.m */,
+				0718961E14685B3800E02FA9 /* ViewController.xib */,
+				0718961014685B3700E02FA9 /* Supporting Files */,
+			);
+			name = ASynchCallBacks;
+			path = ASynchMethods;
+			sourceTree = "<group>";
+		};
+		0718961014685B3700E02FA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0718961114685B3700E02FA9 /* ASynchCallBacks-Info.plist */,
+				0718961214685B3700E02FA9 /* InfoPlist.strings */,
+				0718961514685B3700E02FA9 /* main.m */,
+				0718961714685B3700E02FA9 /* ASynchCallBacks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0718960414685B3700E02FA9 /* ASynchCallBacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0718962314685B3800E02FA9 /* Build configuration list for PBXNativeTarget "ASynchCallBacks" */;
+			buildPhases = (
+				0718960114685B3700E02FA9 /* Sources */,
+				0718960214685B3700E02FA9 /* Frameworks */,
+				0718960314685B3700E02FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASynchCallBacks;
+			productName = ASynchMethods;
+			productReference = 0718960514685B3700E02FA9 /* ASynchCallBacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		071895FC14685B3700E02FA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 071895FF14685B3700E02FA9 /* Build configuration list for PBXProject "ASynchCallBacks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 071895FA14685B3700E02FA9;
+			productRefGroup = 0718960614685B3700E02FA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0718960414685B3700E02FA9 /* ASynchCallBacks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0718960314685B3700E02FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0718961414685B3700E02FA9 /* InfoPlist.strings in Resources */,
+				0718962014685B3800E02FA9 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0718960114685B3700E02FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0718961614685B3700E02FA9 /* main.m in Sources */,
+				0718961A14685B3800E02FA9 /* AppDelegate.m in Sources */,
+				0718961D14685B3800E02FA9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0718961214685B3700E02FA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0718961314685B3700E02FA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0718961E14685B3800E02FA9 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0718961F14685B3800E02FA9 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0718962114685B3800E02FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0718962214685B3800E02FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0718962414685B3800E02FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASynchMethods/ASynchCallBacks-Prefix.pch";
+				INFOPLIST_FILE = "ASynchMethods/ASynchCallBacks-Info.plist";
+				PRODUCT_NAME = ASynchCallBacks;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0718962514685B3800E02FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASynchMethods/ASynchCallBacks-Prefix.pch";
+				INFOPLIST_FILE = "ASynchMethods/ASynchCallBacks-Info.plist";
+				PRODUCT_NAME = ASynchCallBacks;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		071895FF14685B3700E02FA9 /* Build configuration list for PBXProject "ASynchCallBacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0718962114685B3800E02FA9 /* Debug */,
+				0718962214685B3800E02FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0718962314685B3800E02FA9 /* Build configuration list for PBXNativeTarget "ASynchCallBacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0718962414685B3800E02FA9 /* Debug */,
+				0718962514685B3800E02FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 071895FC14685B3700E02FA9 /* Project object */;
+}

@@ -1,0 +1,205 @@
+// !$*UTF8*$!
+{
+	075F6AAE111C3AFB0071CDA6 /* Nibbly */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Nibbly;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	075F6AC3111C3AFF0071CDA6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	075F6AC4111C3AFF0071CDA6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	075F6AC7111C3B380071CDA6 /* NibblyController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {708, 554}}";
+			sepNavSelRange = "{466, 0}";
+			sepNavVisRange = "{0, 473}";
+		};
+	};
+	075F6AC8111C3B380071CDA6 /* NibblyController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {708, 611}}";
+			sepNavSelRange = "{674, 0}";
+			sepNavVisRange = "{26, 775}";
+			sepNavWindowFrame = "{{15, 67}, {1323, 811}}";
+		};
+	};
+	07C65BBF134B28D60001E844 /* NibblyAppDelegate.m:19 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* NibblyAppDelegate.m */;
+		functionName = "-application:didFinishLaunchingWithOptions:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 19;
+		location = Nibbly;
+		modificationTime = 323692763.779333;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	07C65BCA134B2A060001E844 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* NibblyAppDelegate.m */;
+		name = "NibblyAppDelegate.m: 20";
+		rLen = 0;
+		rLoc = 543;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 0;
+	};
+	07C65BCB134B2A060001E844 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* NibblyAppDelegate.h */;
+		name = "NibblyAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 0;
+	};
+	07C65BCC134B2A060001E844 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 075F6AC7111C3B380071CDA6 /* NibblyController.h */;
+		name = "NibblyController.h: 21";
+		rLen = 0;
+		rLoc = 466;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 0;
+	};
+	07C65BCD134B2A060001E844 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 075F6AC8111C3B380071CDA6 /* NibblyController.m */;
+		name = "NibblyController.m: 28";
+		rLen = 0;
+		rLoc = 629;
+		rType = 0;
+		vrLen = 775;
+		vrLoc = 26;
+	};
+	07C65BCE134B2A060001E844 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 075F6AC8111C3B380071CDA6 /* NibblyController.m */;
+		name = "NibblyController.m: 31";
+		rLen = 0;
+		rLoc = 674;
+		rType = 0;
+		vrLen = 775;
+		vrLoc = 26;
+	};
+	1D3623240D0F684500981E51 /* NibblyAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {708, 554}}";
+			sepNavSelRange = "{304, 0}";
+			sepNavVisRange = "{0, 457}";
+		};
+	};
+	1D3623250D0F684500981E51 /* NibblyAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 554}}";
+			sepNavSelRange = "{543, 0}";
+			sepNavVisRange = "{0, 665}";
+			sepNavWindowFrame = "{{15, 67}, {1323, 811}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Nibbly */ = {
+		activeExec = 0;
+		executables = (
+			075F6AAE111C3AFB0071CDA6 /* Nibbly */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 075F6AAE111C3AFB0071CDA6 /* Nibbly */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Nibbly */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Nibbly */,
+		);
+		breakpoints = (
+			07C65BBF134B28D60001E844 /* NibblyAppDelegate.m:19 */,
+		);
+		codeSenseManager = 075F6AC4111C3AFF0071CDA6 /* Code sense */;
+		executables = (
+			075F6AAE111C3AFB0071CDA6 /* Nibbly */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					530,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323692617;
+			PBXWorkspaceStateSaveDate = 323692617;
+		};
+		perUserProjectItems = {
+			07C65BCA134B2A060001E844 /* PBXTextBookmark */ = 07C65BCA134B2A060001E844 /* PBXTextBookmark */;
+			07C65BCB134B2A060001E844 /* PBXTextBookmark */ = 07C65BCB134B2A060001E844 /* PBXTextBookmark */;
+			07C65BCC134B2A060001E844 /* PBXTextBookmark */ = 07C65BCC134B2A060001E844 /* PBXTextBookmark */;
+			07C65BCD134B2A060001E844 /* PBXTextBookmark */ = 07C65BCD134B2A060001E844 /* PBXTextBookmark */;
+			07C65BCE134B2A060001E844 /* PBXTextBookmark */ = 07C65BCE134B2A060001E844 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 075F6AC3111C3AFF0071CDA6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
